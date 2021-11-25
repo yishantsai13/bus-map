@@ -1,21 +1,23 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  mode: 'jit',
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './src/components/*.{html,js}',
+    './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
         primary: {
-          lighter: '#FDFFFB',
-          light: '#F7F6F3',
-          DEFAULT: '#48784A'
+          DEFAULT: '#006BB9',
+          'dark-light': '#CADCE2',
+          lighter: '#F2F8FA',
+          light: '#30A0E0',
+
         },
         secondary: {
-          DEFAULT: '#1F3652',
+          DEFAULT: '#FFC973',
         },
-        gray: {
-          border: '#949494',
-          text: '#A0A0A0',
-          img: '#C4C4C4'
+        black: {
+          DEFAULT: '#232323'
         }
       },
       fontSize: {

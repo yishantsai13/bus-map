@@ -9,9 +9,9 @@ import BusSearch from './components/BusSearch'
 class App extends React.Component {
   render() {
     return (
-      <div className="bg-primary-lighter">
+      <div className="bg-primary-lighter h-full">
         <NavBar />
-        <div className="flex">
+        <div className="flex h-full">
           <BusSearch />
           <Routes>
             <Route path="/" element={<Home />} />

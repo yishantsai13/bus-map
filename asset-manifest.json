@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bus-map/static/css/main.bd8d1a77.chunk.css",
+    "main.js": "/bus-map/static/js/main.829ee2c1.chunk.js",
+    "main.js.map": "/bus-map/static/js/main.829ee2c1.chunk.js.map",
+    "runtime-main.js": "/bus-map/static/js/runtime-main.57d232fd.js",
+    "runtime-main.js.map": "/bus-map/static/js/runtime-main.57d232fd.js.map",
+    "static/js/2.4be0b18a.chunk.js": "/bus-map/static/js/2.4be0b18a.chunk.js",
+    "static/js/2.4be0b18a.chunk.js.map": "/bus-map/static/js/2.4be0b18a.chunk.js.map",
+    "static/js/3.9679e8e6.chunk.js": "/bus-map/static/js/3.9679e8e6.chunk.js",
+    "static/js/3.9679e8e6.chunk.js.map": "/bus-map/static/js/3.9679e8e6.chunk.js.map",
+    "index.html": "/bus-map/index.html",
+    "static/css/main.bd8d1a77.chunk.css.map": "/bus-map/static/css/main.bd8d1a77.chunk.css.map",
+    "static/js/2.4be0b18a.chunk.js.LICENSE.txt": "/bus-map/static/js/2.4be0b18a.chunk.js.LICENSE.txt",
+    "static/media/Detail.2964bc21.svg": "/bus-map/static/media/Detail.2964bc21.svg",
+    "static/media/Logo.d9b72d73.svg": "/bus-map/static/media/Logo.d9b72d73.svg",
+    "static/media/arrow_down.4c2d69ba.svg": "/bus-map/static/media/arrow_down.4c2d69ba.svg",
+    "static/media/search.06336c64.svg": "/bus-map/static/media/search.06336c64.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57d232fd.js",
+    "static/js/2.4be0b18a.chunk.js",
+    "static/css/main.bd8d1a77.chunk.css",
+    "static/js/main.829ee2c1.chunk.js"
+  ]
+}

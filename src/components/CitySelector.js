@@ -14,7 +14,7 @@ export default function CitySelector(props) {
     backgroundPosition: 'right .75rem center'
   }
   return (
-    <select value={value} onChange={selectCity} className="block rounded-lg bg-white py-2 pl-4 pr-20 appearance-none text-ss" style={downArrowStyle}>
+    <select value={value} onChange={selectCity} className="block rounded-lg bg-white py-2 pl-4 pr-20 appearance-none text-ss w-max" style={downArrowStyle}>
       {options}
     </select>
   )

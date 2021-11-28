@@ -1,10 +1,12 @@
 import './App.css';
 import React from 'react'
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 
 // components
 import NavBar from './components/NavBar'
 import BusSearch from './components/BusSearch'
+import News from './components/News'
+import Map from './components/Map'
 
 class App extends React.Component {
   render() {
@@ -12,9 +14,13 @@ class App extends React.Component {
       <div className="bg-primary-lighter h-full">
         <NavBar />
         <div className="flex h-full">
-          <BusSearch />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />}>
+              <Route path="/" element={<News />} />
+              <Route path="/route" element={<Map />} />
+            </Route>
+            {/* <Route path="/stops" > */}
+            {/* </Route> */}
           </Routes>
         </div>
       </div>
@@ -24,7 +30,10 @@ class App extends React.Component {
 
 function Home(props) {
   return (
-    <div>Hello</div>
+    <>
+      <BusSearch />
+      <Outlet />
+    </>
   )
 }
 
